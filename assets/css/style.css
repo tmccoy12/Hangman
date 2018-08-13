@@ -1,0 +1,38 @@
+
+ body {
+	font-family: 'Work Sans', sans-serif;
+    
+
+}
+
+
+.background{
+	background-image: url("main-picture.jpg");
+	background-repeat: no-repeat;
+ 	min-height: 100%;
+    /* min-width: 1024px; */
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+	left: 0;
+	
+}
+
+@media screen and (max-width: 1024px){
+    img.bg {
+    left: 50%;
+    margin-left: -512px; }
+}
+.blanks{
+	font-size: 2rem;
+	letter-spacing: 5px;
+	text-align: center;
+}
+
+.bruce{
+	/* text-shadow: 3px 0 0 white; */
+	color: white;
+	text-align: center;
+	
+}
